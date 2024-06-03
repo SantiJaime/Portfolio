@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Indie+Flower&family=Permanent+Marker&family=Shadows+Into+Light&family=Space+Grotesk:wght@300..700&display=swap');
+
+.wave-text-container {
+  display: inline-block;
+  perspective: 1000px;
+}
+.wave-text-char {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 2px;
+  font-family: "Indie Flower", cursive;
+}
+.wave-text-word {
+  display: inline-block;
+}
+.fuenteLetra{
+  font-size: 5rem;
+  font-family: "Indie Flower", cursive;
+}
