@@ -9,12 +9,7 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import WaveText from "./WaveText";
 import { Link } from "react-router-dom";
-
-const NAVIGATION = [
-  { name: "Sobre mí", to: "/#sobremi" },
-  { name: "Mis proyectos", to: "/#proyectos" },
-  { name: "Contacto", to: "/#contacto" },
-];
+import { NAVIGATION } from "../constants/const";
 
 const NavbarComp = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

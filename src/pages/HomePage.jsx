@@ -9,16 +9,9 @@ import { Formik } from "formik";
 import { errorEmail } from "../utils/validationSchemas";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
+import { IMAGES } from "../constants/const";
 
 const HomePage = () => {
-  const IMAGES = [
-    "/tecnologias/js.png",
-    "/tecnologias/ts.png",
-    "/tecnologias/react.png",
-    "/tecnologias/tailwind.png",
-    "/tecnologias/nodejs.png",
-    "/tecnologias/mongodb.png",
-  ];
 
   const { hash } = useLocation();
 

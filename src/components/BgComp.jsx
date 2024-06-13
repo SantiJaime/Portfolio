@@ -1,5 +1,3 @@
-// src/components/BackgroundIframe.js
-
 const BgComp = () => {
   return (
     <div className="iframe-container">
