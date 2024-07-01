@@ -23,8 +23,8 @@ export const DATA = [
     label: "Juani Car Detailing",
     value: "Juani Car Detailing",
     desc: `Juani Car Detailing - En Juani Car Detailing, nos apasiona devolverle la vida a tu vehículo. Nos especializamos en servicios de lavado y detallado de alta calidad, cuidando cada detalle para que tu auto luzca como nuevo. Utilizamos productos y técnicas de vanguardia para asegurar que cada rincón de tu vehículo quede impecable.`,
-    img: ["/proyectos/JuaniCarDetailing1.png"],
-    link: "En proceso...",
+    img: ["/proyectos/JuaniDetailing1.png", "/proyectos/JuaniDetailing2.png", "/proyectos/JuaniDetailing3.png"],
+    link: "https://juanicar-detailing.vercel.app",
   },
 ];
 
