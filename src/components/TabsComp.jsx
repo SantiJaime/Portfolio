@@ -21,6 +21,8 @@ const TabsComp = () => {
     if (value === "Chevronar") setActive("/proyectos/Chevronar1.png");
     else if (value === "Juani Car Detailing")
       setActive("/proyectos/JuaniDetailing1.png");
+    else if (value === "El Gran Mercado")
+      setActive("/proyectos/GranMercado1.png");
   };
 
   return (

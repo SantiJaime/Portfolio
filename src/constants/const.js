@@ -22,9 +22,16 @@ export const DATA = [
   {
     label: "Juani Car Detailing",
     value: "Juani Car Detailing",
-    desc: `Juani Car Detailing - En Juani Car Detailing, nos apasiona devolverle la vida a tu vehículo. Nos especializamos en servicios de lavado y detallado de alta calidad, cuidando cada detalle para que tu auto luzca como nuevo. Utilizamos productos y técnicas de vanguardia para asegurar que cada rincón de tu vehículo quede impecable.`,
+    desc: `En Juani Car Detailing, nos apasiona devolverle la vida a tu vehículo. Nos especializamos en servicios de lavado y detallado de alta calidad, cuidando cada detalle para que tu auto luzca como nuevo. Utilizamos productos y técnicas de vanguardia para asegurar que cada rincón de tu vehículo quede impecable.`,
     img: ["/proyectos/JuaniDetailing1.png", "/proyectos/JuaniDetailing2.png", "/proyectos/JuaniDetailing3.png"],
     link: "https://juanicar-detailing.vercel.app",
+  },
+  {
+    label: "El Gran Mercado",
+    value: "El Gran Mercado",
+    desc: `En El Gran Mercado, estamos dedicados a conectar compradores y vendedores en un solo lugar. Nos especializamos en ofrecer una plataforma fácil, segura y confiable para que puedas comprar productos de todo tipo, desde tecnología y moda, hasta artículos para el hogar y más. Nuestro objetivo es hacer que cada transacción sea una experiencia simple y satisfactoria, utilizando herramientas avanzadas y un servicio al cliente excepcional para asegurar que encuentres justo lo que necesitas al mejor precio. ¡Explora y compra con confianza en El Gran Mercado!`,
+    img: ["/proyectos/GranMercado1.png", "/proyectos/GranMercado2.png", "/proyectos/GranMercado3.png"],
+    link: "https://gran-mercado.vercel.app",
   },
 ];
 
