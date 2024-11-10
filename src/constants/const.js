@@ -5,6 +5,7 @@ export const IMAGES = [
   "/tecnologias/tailwind.png",
   "/tecnologias/nodejs.png",
   "/tecnologias/mongodb.png",
+  "/tecnologias/mysql.png",
 ];
 
 export const DATA = [

@@ -11,7 +11,7 @@ const CarouselComp = () => {
       Tecnologías utilizadas
     </Typography>
     <hr />
-    <div className="mx-auto grid max-w-lg grid-cols-2 sm:max-w-xl sm:grid-cols-2 md:grid-cols-3 sm:gap-x-4 lg:mx-0 lg:max-w-none lg:grid-cols-6 items-center">
+    <div className="mx-auto grid max-w-lg grid-cols-2 sm:max-w-xl sm:grid-cols-2 md:grid-cols-4 sm:gap-x-4 lg:mx-0 lg:max-w-none lg:grid-cols-7 items-center">
       {IMAGES.map((img, index) => (
         <img
           className="col-span-1 max-h-24 w-full object-contain my-4"
