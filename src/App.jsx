@@ -8,6 +8,7 @@ import BgComp from "./components/BgComp";
 import FooterComp from "./components/FooterComp";
 import LoadingScreen from "./components/LoadingScreen";
 import { Toaster } from "sonner";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,7 +25,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <BgComp />
+        <BgComp />
         {loading ? (
           <LoadingScreen />
         ) : (
@@ -37,6 +38,14 @@ function App() {
                 element={
                   <main className="marginMain">
                     <HomePage />
+                  </main>
+                }
+              />
+              <Route
+                path="*"
+                element={
+                  <main className="marginMain">
+                    <ErrorPage />
                   </main>
                 }
               />
