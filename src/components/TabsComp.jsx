@@ -57,7 +57,7 @@ const TabsComp = () => {
                   <div className="p-3 rounded-lg">
                     <Row>
                       <Col lg={6} sm={12} className="mt-2">
-                        <div data-aos="fade-up" data-aos-duration="3000">
+                        <div>
                           <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl text-center">
                             {value}
                           </h2>
@@ -91,11 +91,8 @@ const TabsComp = () => {
                       </Col>
                       <Col lg={6} sm={12}>
                         <div className="grid gap-4 bgAbout p-3 rounded-lg">
-                          <div data-aos="zoom-in-left">
-                            <ModalComp type={"buttonImg"} img={active} />
-                          </div>
+                          <ModalComp type={"buttonImg"} img={active} />
                           <div
-                            data-aos="zoom-out"
                             className="grid grid-cols-3 gap-2"
                           >
                             {img.map((image, index) => (
